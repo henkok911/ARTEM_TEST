@@ -1,0 +1,339 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	background: #fff
+	
+	font-weight: 300
+	font-family: "OpenSans", sans-serif
+	.ande-content-top
+		height: 530px
+		background-image:  url(/img/123.png)
+		border-bottom: 1px solid #f57c00
+		.ande-audit
+			max-width: 963px
+			min-height: 242px
+			margin: 0 auto
+			text-align: center
+			color: #fff
+			padding-top: 100px
+			h1
+				font-weight: 50
+				font-size: 24px
+				span
+					font-size: 52px
+			p
+				color: #fff
+				margin-top: 0
+				width: 430px
+				height: 80px
+				background: #f7941d
+				margin: 0 auto
+				line-height: 48px
+				font-size: 60px
+				padding-top: 5px
+				margin-bottom: 54px
+	.ande-content-middle
+		background: #fff 100%
+		background-size: cover
+		border: 1px solid #fff
+		display: block
+	.ande-project-inner
+		width: 49%
+		display: inline-block
+		position: relative
+		vertical-align: top
+		img
+			width: 100%
+			margin-left: 4%
+		section
+			display: block	
+			padding-left: 40%
+			padding-top: 20.5%		
+			h2
+				font-size: 15px
+				color: #7f8890
+				font-weight: 300
+				line-height: 24px
+				text-align: left
+				padding: 0 10px
+			span
+				line-height: 48px
+				font-size: 48px
+				color: #263139
+				text-align: left
+	.ande-content-include
+		padding-top: 65px
+		background: #f7f7f7
+		border-bottom: 1px solid #efefef
+		background-image: url(/img/big-telephone.png)
+		background-position: bottom left
+		background-repeat: no-repeat
+		padding-bottom: 70px
+	.inner
+		max-width: 1180px
+		margin: 0 auto
+		padding: 0 25px	
+	.ande-col3	
+		background: #f7f7f7
+		text-align: center
+		color: #263139
+		border: 1px solid #d7d7d7
+		display: block
+		position: relative
+		width: 290px
+		height: 235px
+		z-index: 2
+		padding: 65px 0
+		p
+			padding: 0 28px
+			font-size: 16px
+		use
+			fill: grey
+		img
+			margin: 0 50px
+			display: inline-block
+	#ande-col3-1
+		border-bottom: none	
+	#ande-col3-3
+		padding: 37px 0
+		border-right: none
+		border-left: none
+		padding-top: 60px
+	#ande-col3-5
+		border-left: none
+	#ande-col3-6
+		border-top: none	
+	#ande-col3-7
+		border-top: none
+		border-bottom: none
+		border-left: none
+	#ande-col3-8
+		height: 325px
+		span
+			font-size: 14px	
+		p
+			padding-left: 41px
+			padding-right: 42px				
+	.ande-col3
+		&:hover
+			transform: scale(1.05)
+			z-index: 100
+			background: #f7941d
+			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75)
+			display: block
+			color: #fff
+			border: 1px solid #f7941d
+			use
+				fill: #fff
+			.ande-numbers
+				opacity: 0.15
+				top: 15px
+	.ande-col3-none
+		width: 290px
+		height: 235px	
+	.ande-non-last
+		height: 325px
+		font-size: 14px
+		text-align: left
+		p
+			text-align: center
+		span
+			padding-top: 10px 
+			display: inline-block
+			position: relative
+			text-align: left		
+	.ande-include
+		display: inline-block
+		text-transform: uppercase
+		font-size: 0px
+		p
+			font-size: 40px
+			font-weight: 300
+			display: block
+			margin-top: 78px
+			padding: 0 40px		
+	.ande-numbers
+		font-size: 200px
+		margin: 0
+		display: block
+		position: absolute
+		font-weight: 700
+		opacity: 0
+		left: 0	
+		font-family: "OpenSans-Bold", sans-bold
+	.ande-time-price
+		padding: 55px 0
+		background: #fff		
+	.ande-time-price-notice
+		display: block
+		padding-bottom: 60px
+		text-align: center
+		h2
+			padding: 0 120px
+			margin: 0 auto
+			font-size: 40px
+			font-weight: 300
+			text-transform: uppercase		
+	.ande-notice-include
+		display: inline-block
+		position: relative
+		max-width: 450px
+		margin: 0 50px
+		vertical-align: top
+		img
+			display: block
+			margin: 0 auto
+			padding-bottom: 10px
+			width: 128px
+			height: 128px
+		p
+			text-align: center
+		.ande-time
+			font-size: 60px
+		span
+			font-size: 30px
+	.ande-time
+		h2
+	.ande-youget
+		background: url(/img/youget.png) no-repeat
+		padding-bottom: 60px
+	.ande-youget-notice
+		padding-top: 50px
+		display: block
+		padding-bottom: 60px
+		text-align: center
+		h2
+			margin: 0 auto
+			font-size: 40px
+			font-weight: 300
+			text-transform: uppercase	
+	.ande-inner-youget
+		text-align: center
+		padding-bottom: 60px
+		img
+			display: block
+			margin: 0 auto
+		p
+			font-size: 14px
+			padding: 0 10px
+		h3
+			padding: 0 28px	
+			font-size: 24px
+			font-weight: 300
+			line-height: 24px
+	.ande-youget-slider
+		padding-right: 40px
+		.item
+			img
+				display: inline-block
+				margin-right: 15px
+				width: 35%
+				padding: 0 15px
+	#lightSlider
+		padding-left: 14%
+	.ande-why
+		padding-top: 70px	
+	.ande-why-top
+		text-align: center
+		padding-bottom: 20px
+		h1
+			text-transform: uppercase
+			font-size: 40px
+			font-weight: 300
+			color: #263139
+			line-height: 48px
+	.ande-why-inside
+		font-size: 0
+		h2
+			color: #f57c00
+			font-size: 40px
+			font-weight: 300
+			line-height: 48px
+			margin: 0
+			padding: 0
+			display: inline-block
+		p
+			line-height: 28px
+			font-size: 14px	
+			padding: 0px
+			margin: 0px
+			display: inline-block
+		img
+			position: relative
+			vertical-align: top
+			float: right
+			margin-top: 15px
+		section
+			padding-right: 90px
+			text-align: right
+	.ande-why-right
+		img
+			float: left
+		section
+			padding-left: 90px
+			text-align: left			
+	.ande-why-center
+		margin: 0 auto
+		padding: 0 20px
+		img
+			margin: 0 auto 
+			width: 100%
+			padding: 0 20px
+			padding-top: 50px
+			display: inline-block
+		p
+			margin: 0
+			float: left
+			display: block	
+	.ande-why-items
+		padding-top: 75px
+	.ande-nikolay-notice
+		display: block
+		position: absolute
+		width: 165px
+		margin: 0 40%
+		margin-top: 22%
+		span
+			font-size: 14px
+
+
+@import "media" 
